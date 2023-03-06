@@ -47,14 +47,14 @@ const ExploreCard = ({ restaurant }) => {
                 </span>
               );
             })}
-            {approxPrice && <div className="approx-price">{approxPrice}</div>}
           </div>
         )}
+        {approxPrice && <div className="approx-price">{approxPrice}</div>}
       </div>
       {bottomContainers.length > 0 && (
         <div className="bottom-containers">
           <div className="card-separator"></div>
-          <div className="explore-bootom">
+          <div className="explore-bottom">
             <img
               src={bottomContainers[0]?.image?.url}
               alt={bottomContainers[0]?.text}

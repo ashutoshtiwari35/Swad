@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Made with 🔥 from Swad</div>
+    <div className="absolute-center">Made with 🔥 from Swad</div>
   )
 }
 

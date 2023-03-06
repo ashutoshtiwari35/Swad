@@ -13,11 +13,11 @@ const HomePage = () => {
     const getCorrectScreen = (tab) => {
         switch (tab) {
             case "Delivery":
-                return <Delivery />
-            case "Dining out":
-                return <DiningOut />
+                return <Delivery />;
+            case "Dining Out":
+                return <DiningOut />;
             case "Nightlife":
-                return <Nightlife />
+                return <Nightlife />;
             default:
                 return <Delivery />
         }
